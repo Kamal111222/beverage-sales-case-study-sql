@@ -6,7 +6,7 @@
 -- LinkedIn : linkedin.com/in/kamal-singh-2941ab329
 -- GitHub   : github.com/Kamal111222
 -- ============================================================
--- Dataset  : Three tables — fact, Location, Product
+-- Dataset  : Three tables â€” fact, Location, Product
 --            Covers sales, profit, marketing, inventory,
 --            expenses and budget data for a beverage company.
 -- ============================================================
@@ -175,7 +175,7 @@ intersect
 Select area_code from Location
 --------------------------------------------------------------------------------------
 
---25. Create a user-defined function for the product table to fetch a particular product type based upon the user’s preference.
+--25. Create a user-defined function for the product table to fetch a particular product type based upon the userâ€™s preference.
 create function selpt(@pt varchar(50))
 returns table
 as
